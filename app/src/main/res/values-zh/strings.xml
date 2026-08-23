@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 应用名称 -->
-    <string name="app_name">Scg动态壁纸</string>
-    
-    <!-- 顶部副标题（图片中首段英文） -->
+    <!-- 标题与副标题 -->
+    <string name="title">Scg</string>
     <string name="subtitle">选择一段视频并将其设为你的壁纸。动态壁纸将同时应用于主屏幕和锁屏。</string>
     
-    <!-- 界面按钮与中间提示 -->
-    <string name="choose_video">Choose Video</string> <!-- 注意：如果作者代码里是大写，保持原样或改成选择视频 -->
+    <!-- 提示未选择视频 -->
     <string name="no_video_selected">请先选择一个视频文件</string>
-    <string name="set_wallpaper">设为动态壁纸</string>
+    
+    <!-- 选择视频按钮 -->
+    <string name="pick_video">选择视频</string>
     
     <!-- 播放速度板块 -->
-    <string name="playback_speed">Playback speed</string>
+    <string name="speed_label">播放速度</string>
+    <string name="speed_default_display">1.00x</string>
     
     <!-- 画面缩放模式板块 -->
-    <string name="crop_mode">Crop mode</string>
-    <string name="fill_crop_edges">Fill (crop edges)</string>
-    <string name="fit_show_all_may_letterbox">Fit (show all, may letterbox)</string>
+    <string name="crop_label">画面缩放模式</string>
+    <string name="crop_fill">裁剪填充（推荐）</string>
+    <string name="crop_fit">保持比例（黑边）</string>
+    
+    <!-- 底部设为壁纸大按钮 -->
+    <string name="set_wallpaper">设为动态壁纸</string>
 
-    <!-- 其他备用提示 -->
+    <!-- 原作者可能在其他地方用到的备用标签，顺手留着防报错 -->
+    <string name="app_name">视频动态壁纸</string>
     <string name="video_preview">视频预览</string>
     <string name="settings">设置</string>
     <string name="error_loading_video">视频加载失败，请检查文件格式</string>
