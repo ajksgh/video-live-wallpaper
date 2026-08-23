@@ -36,3 +36,5 @@ Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
 See [ATTRIBUTION.md](ATTRIBUTION.md) for a full list of the open-source
 libraries this app depends on, and a note on how the source code itself
 was written.
+
+根据原项目https://github.com/ajksgh/video-live-wallpaper  修改汉化
